@@ -11,3 +11,8 @@ article{max-width:850px;margin:3rem auto 4rem}article h1{font-size:clamp(42px,5.
 @media(min-width:1640px){.mast{font-size:116px}.signature span{font-size:14px}nav a{font-size:22px}}
 
 #blog{padding:1.5rem 0 2rem}#blog-heading{margin:0 0 1rem}
+#notes-title{font-size:clamp(28px,3vw,42px);margin:1rem 0}
+header{flex-wrap:wrap}
+nav{flex-wrap:wrap}
+@media(max-width:1150px){nav{width:100%;margin:0;padding:.5rem 0;gap:.45rem 1rem;justify-content:flex-start}}
+@media(max-width:600px){.signature span{font-size:12px;line-height:1.35;letter-spacing:.045em}.signature{max-width:100%}nav a{padding:.2rem 0}}

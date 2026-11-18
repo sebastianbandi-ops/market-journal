@@ -1,1 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 202" font-family="Georgia,serif"><rect width="620" height="202" fill="#f3e6cf"/><text x="24" y="38" font-size="27" fill="#650e19">Stated in the message</text><text x="24" y="72" font-size="23" fill="#29190f">Show the original wording</text><text x="24" y="132" font-size="27" fill="#650e19">Inferred from past trades</text><text x="24" y="166" font-size="23" fill="#29190f">Flag for explicit confirmation</text><path d="M24 93h572" stroke="#a16e62"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 266" font-family="Georgia, serif">
+  <title>Illustrative gas trade ticket with a missing delivery hub</title>
+  <rect width="560" height="266" fill="#f3e6cf"/>
+  <g fill="#29190f">
+    <text x="22" y="36" font-size="26" font-weight="bold">Gas trade ticket</text>
+    <text x="22" y="72" font-size="20">Message: “Agreed on 500 MMBtu for Friday.”</text>
+    <path d="M22 92h516 M22 144h516" stroke="#a16e62"/>
+    <text x="22" y="126" font-size="22">Agreed quantity</text>
+    <text x="300" y="126" font-size="22">500 MMBtu</text>
+    <text x="22" y="184" font-size="22">Delivery hub</text>
+    <rect x="300" y="158" width="211" height="38" fill="#fffaf0" stroke="#785447" stroke-dasharray="5 3"/>
+    <text x="22" y="237" fill="#650e19" font-size="21">Confirm the delivery hub with the counterparty.</text>
+  </g>
+</svg>
